@@ -1,78 +1,101 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>自由研究のやり方</title>
+        <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    </head>
+    <body>
 
-    <div class="callout large primary">
-      <div class="row column text-center">
-        <h1>Our Blog</h1>
-        <h2 class="subheader">Such a Simple Blog Layout</h2>
-      </div>
-    </div>
-    
-    <!-- We can now combine rows and columns when there's only one column in that row -->
-    <div class="row medium-8 large-7 columns">
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="http://placehold.it/850x350">
-        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
+        <div class="callout large warning">
+            <div class="row column text-center">
+                <h1>自由研究のやり方</h1>
+            </div>
         </div>
-      </div>
 
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="http://placehold.it/850x350">
-        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
-        </div>
-      </div>
+        <!-- We can now combine rows and columns when there's only one column in that row -->
+        <div class="row medium-8 large-7 columns">
+            <div class="blog-post">
+                <img class="thumbnail" src="img/kenkyu_man.png">
+                <p>毎年夏休みになると、自由研究に何をするか迷う人も多いと思います。</p>
+                <p>何をするかも迷いますが、どうやるかが大切です。</p>
+                <p>「自由」なのはテーマで、「研究」はシステマチックにやるものです。</p>
+                <div class="callout">
+                    <p>「研究」とは</p>
+                    <blockquote>（中略）creative work undertaken on a systematic basis in order to increase the stock of knowledge（中略）</blockquote>
+                    <small style="display: block; float: right"><a href="https://en.wikipedia.org/wiki/Research" target="_blank">英語版Wkipedia「Research（研究）」</a>から引用</small>
+                    <p style="clear: both;">知識のストックを増やすために、システマチックに行われる、創造的な作業</p>
+                </div>
+                <p>このページでは、そのやり方を以下のステップ簡単にで説明します。</p>
+            </div>
+            <!--ul class=""accordion>
+                <li><a href="problem.html">科学的な問題を見つける</a></li>
+                <li>事前に調査をする</li>
+                <li>仮説を立てる</li>
+                <li>実験で仮説を検証する</li>
+                <li>実験結果から結論を得る</li>
+            </ul-->
+            <ul class="accordion" data-accordion>
+                <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">手順１：問題を見つける</a>
 
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="http://placehold.it/850x350">
-        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
-        </div>
-      </div>
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <p>Panel 1. Lorem ipsum dolor</p>
+                        <a href="#">Nowhere to Go</a>
+                    </div>
+                </li>
+                <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">手順２：事前に調査をする</a>
 
-      <div class="blog-post">
-        <h3>Awesome blog post title <small>3/6/2015</small></h3>
-        <img class="thumbnail" src="http://placehold.it/850x350">
-        <p>Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum. Nulla at nulla justo, eget luctus.</p>
-        <div class="callout">
-          <ul class="menu simple">
-            <li><a href="#">Author: Mike Mikers</a></li>
-            <li><a href="#">Comments: 3</a></li>
-          </ul>
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <p>Panel 1. Lorem ipsum dolor</p>
+                        <a href="#">Nowhere to Go</a>
+                    </div>
+                </li>
+                <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">手順３：仮説を立てる</a>
+
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <p>Panel 1. Lorem ipsum dolor</p>
+                        <a href="#">Nowhere to Go</a>
+                    </div>
+                </li>
+                <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">手順４：実験で仮説を検証する</a>
+
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <p>Panel 1. Lorem ipsum dolor</p>
+                        <a href="#">Nowhere to Go</a>
+                    </div>
+                </li>
+                <li class="accordion-item is-active" data-accordion-item>
+                    <!-- Accordion tab title -->
+                    <a href="#" class="accordion-title">手順５：実験結果から結論を得る</a>
+
+                    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+                    <div class="accordion-content" data-tab-content>
+                        <p>Panel 1. Lorem ipsum dolor</p>
+                        <a href="#">Nowhere to Go</a>
+                    </div>
+                </li>
+            </ul>
         </div>
-      </div>
-    </div>
-    
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
 </html>
 
 
-    
