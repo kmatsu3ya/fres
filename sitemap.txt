@@ -1,7 +1,7 @@
-http://online-lab.tech/index.html
-http://online-lab.tech/problem.html
-http://online-lab.tech/research.html
-http://online-lab.tech/hypothesis.html
-http://online-lab.tech/experiment.html
-http://online-lab.tech/conclusion.html
-http://online-lab.tech/author.html
+http://fresearch.work/index.html
+http://fresearch.work/problem.html
+http://fresearch.work/research.html
+http://fresearch.work/hypothesis.html
+http://fresearch.work/experiment.html
+http://fresearch.work/conclusion.html
+http://fresearch.work/author.html
