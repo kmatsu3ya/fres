@@ -1,7 +1,8 @@
-http://fresearch.work/index.html
-http://fresearch.work/problem.html
-http://fresearch.work/research.html
-http://fresearch.work/hypothesis.html
-http://fresearch.work/experiment.html
-http://fresearch.work/conclusion.html
-http://fresearch.work/author.html
+http://www.fresearch.work/index.html
+http://www.fresearch.work/problem.html
+http://www.fresearch.work/research.html
+http://www.fresearch.work/hypothesis.html
+http://www.fresearch.work/experiment.html
+http://www.fresearch.work/conclusion.html
+http://www.fresearch.work/author.html
+http://www.fresearch.work/logic.html
